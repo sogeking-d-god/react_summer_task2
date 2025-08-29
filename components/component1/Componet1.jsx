@@ -3,7 +3,7 @@ const Component1 = ({options_arr,setItem, setInpuText, setDescription, label1,la
     let label_1_options_count = options_arr.length;
 
     return (
-        <div id="component-1" >
+        <div className="component-1" >
             <div className="section label-1">
                 <div className="label_1_header">
                     <label htmlFor="label-1">{label1}:</label>

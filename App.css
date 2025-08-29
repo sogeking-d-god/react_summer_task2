@@ -1,4 +1,4 @@
-#component-1{
+.component-1{
     /* box-shadow: 0px  0px  15px 5px #c7c7c7;
     border-radius: 10px; */
     display: flex;
@@ -125,3 +125,14 @@ body {
   height: 100vh;
 }
 
+.component-3
+{
+  select{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid lightgray;
+    background-color: transparent;
+    border-radius: 5px;
+
+  }
+}
