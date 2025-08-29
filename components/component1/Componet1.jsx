@@ -34,7 +34,7 @@ const Component1 = ({options_arr,setItem, setInpuText, setDescription, label1,la
                 <textarea name="description" id="description" onChange={(event) => setDescription(event.target.value)}></textarea>
             </div>
 
-            <div className="section buttons">
+            <div className="cf section buttons">
                 <button id="Add">Add</button>
                 <button id="Update">Update</button>
                 <button id="Delete">Delete</button>
