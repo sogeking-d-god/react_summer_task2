@@ -1,0 +1,126 @@
+#component-1{
+    box-shadow: 0px  0px  15px 5px #c7c7c7;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+
+    padding: 10px;
+
+    .section{
+      margin: 10px;
+    }
+
+    label{
+      font-weight: bold;
+    }
+
+    .label-1{
+      /* margin: 10px; */
+        .label_1_header
+        {
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+          
+          #counter{
+            
+            margin-left: 35px;
+            background-color: #008080 !important;
+            color: white !important;
+            padding: 0px 4px;
+            font-size: x-small !important;
+            
+            border-radius: 5px;
+          }
+          
+        }
+
+        .select_wrapper{
+          width: 100%;
+
+
+          select{
+            width: 100%;
+            padding: 10px;
+            border: 1px solid lightgray;
+            background-color: transparent;
+            border-radius: 5px;
+
+          }
+        }
+        
+    }
+
+    .label-2{
+     input{
+      width: 100%;
+      padding: 10px;
+      border: 1px solid lightgray;
+      background-color: transparent;
+      border-radius: 5px;
+     }
+    }
+
+    .description{
+      display: flex;
+      flex-direction: column;
+      textarea{
+        padding: 10px;
+        border: 1px solid lightgray;
+        background-color: transparent;
+        border-radius: 5px;
+        width: 100%;
+        resize: none;
+      }
+      margin-bottom: 0px;
+
+    }
+
+    .buttons{
+      margin-top: 0px;
+    }
+}
+
+img{
+  width: 100%;
+
+}
+
+
+
+button{
+  background-color: #008080;
+  
+  padding: 5px 10px;
+  margin: 5px;
+  border-radius: 20px;
+  border: 1px solid #2d9595;
+  color: white;
+  padding: 10px 15px;
+}
+
+.cf {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+*{
+
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif
+}
+
+.App{
+  width: 100vw;
+  height: 100vh;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+}
+
